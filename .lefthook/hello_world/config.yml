@@ -1,0 +1,12 @@
+---
+pre-commit:
+  commands:
+    hello-world:
+      run: |
+        echo 'hello world'
+
+lint:
+  commands:
+    hello-world:
+      run: |
+        sh .lefthook/hello_world/run.sh
